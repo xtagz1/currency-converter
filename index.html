@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Currency converter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="app-details">
+        <img src="app-logo.png" class="app-icon" />
+        <h1 class="app-title">Currency Converter</h1>
+      </div>
+      <label for="amount" class="amount-class">Amount:</label>
+      <input type="number" id="amount" value="100" />
+      <div class="dropdowns">
+        <select id="from-currency-select"></select>
+        <select id="to-currency-select"></select>
+      </div>
+      <button id="convert-btn">Convert</button>
+      <p id="result"></p>
+    </div>
+    <!--  -->
+    <script src="currency-code.js"></script>
+    <!--  -->
+    <script src="api-key.js"></script>
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
